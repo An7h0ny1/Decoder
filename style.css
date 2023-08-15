@@ -1,0 +1,123 @@
+*{
+    background:rgb(212, 197, 177);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 400px;
+    resize: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    height: calc(98vh - 67px);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.textarea {
+    width: 100%;
+    max-width: 450px;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 4px rgba(255, 230, 1, 0.3);
+    outline: none;
+    resize: none;
+    text-align: left;
+    color: #4d4805;
+    transition: 0.3s ease all;
+}
+
+.textarea::placeholder{
+    transform: scale(.75);
+    letter-spacing: -.5px;
+    color: black;
+}
+
+.mensaje{
+    width: 100%;
+    max-width: 400px;
+    min-height: 100px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 4px rgba(236, 5, 5, 0.3);
+    outline: none;
+    resize: none;
+    text-align: left;
+    color: #f1f1f1;
+    background-color:#3b3214a8;
+    transition: 0.3s ease all;
+}
+
+.botones{
+    display: flex;
+    margin-top: 10px;
+}
+
+.copiar{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: #3f3515a8;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.copiar:hover {
+    background-color: #8cad2e;
+}
+
+.btn-encriptar {
+    background-color: #d1b453a8;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-encriptar:hover {
+    background-color: #61b3cc;
+}
+
+.btn-desencriptar {
+    background-color: #695a16;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-desencriptar:hover {
+    background-color: #aa6328;
+}
+
+.informacion{
+    margin-top: 0%;
+    margin-bottom: 5%;
+    font-size:.7rem!important ;
+    text-align: center;
+    width: fit-content;
+}
